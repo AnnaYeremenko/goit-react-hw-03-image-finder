@@ -29,7 +29,7 @@ display: flex;
   overflow: hidden;
   `;
 
-export const SerachFormBtn = styled.button`
+export const SearchFormBtn = styled.button`
 display: inline-block;
   width: 48px;
   height: 48px;
