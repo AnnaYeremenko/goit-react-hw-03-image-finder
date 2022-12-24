@@ -14,6 +14,7 @@ export const Searchbar = ({ onSubmit }) => {
                 <SearchFormBtn tupe="submit">
                     <SearchFormBtnLabel>Search</SearchFormBtnLabel>
                 </SearchFormBtn>
+                
                 <SearchFormInput
                 type="text"
                 name="query"

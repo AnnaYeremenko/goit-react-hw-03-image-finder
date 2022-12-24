@@ -13,7 +13,7 @@ position: fixed;
   z-index: 1200;
   `;
 
-export const ModalImg = styled.div`
+export const ModalImage = styled.div`
 position: absolute;
   top: 0;
   left: 15%;

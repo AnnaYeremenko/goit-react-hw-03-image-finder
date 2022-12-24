@@ -1,20 +1,21 @@
 import propTypes from 'prop-types';
 import { createPortal } from 'react-dom';
-import { Overlay, ModalImg  } from './Modal.styled';
+import { ModalImage , Overlay, } from './Modal.styled';
 
 const modalRoot = document.querySelector('#modal-root');
 export const Modal = ({ src, onClose }) => 
 createPortal(
     <Overlay onClick={onClose}>
-        <ModalImg>
+        <ModalImage>
             Picture 
             <img src={src} alt="" />
-        </ModalImg>
+        </ModalImage>
     </Overlay>,
     modalRoot
 );
 
 Modal.propTypes = {
     src: propTypes.string.isRequired,
+    alt: propTypes.string.isRequired,
     onClose: propTypes.func.isRequired,
 };

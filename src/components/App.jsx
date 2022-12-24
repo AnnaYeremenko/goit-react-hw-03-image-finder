@@ -46,11 +46,11 @@ export class App extends Component {
       }
 
     }
-  }
+  };
 
   hendleLoadMore = () => {
     this.setState(prevState => ({
-      page: prevState.page +1,
+      page: prevState.page + 1,
     }));
   };
 
@@ -75,7 +75,7 @@ export class App extends Component {
 
   componentDidMount() {
     window.addEventListener('keydown', this.onKeyDown);
-  }
+  };
 
   render() {
     return (
