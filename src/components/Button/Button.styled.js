@@ -4,13 +4,13 @@ export const LoadMoreButton = styled.button`
 margin-left: auto;
 margin-right: auto;  
 padding: 8px 16px;
-  border-radius: 2px;
-  background-color: #3f51b5;
+  border-radius: 9px;
+  background-color: pink;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: inline-block;
   color: #fff;
-  border: 0;
+  border: 10;
   text-decoration: none;
   cursor: pointer;
   font-family: inherit;
@@ -23,6 +23,6 @@ padding: 8px 16px;
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     :hover,
     :focus {
-      background-color: #303f9f;
+      background-color: #FF69B4;
     }
     `;

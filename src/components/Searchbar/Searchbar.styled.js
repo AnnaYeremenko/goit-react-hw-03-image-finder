@@ -13,8 +13,8 @@ top: 0;
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
-  background-color: #3f51b5;
+  color: grey;
+  background-color: rgba(255, 192, 203, 0.8);
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
     `;
@@ -33,7 +33,8 @@ export const SearchFormBtn = styled.button`
 display: inline-block;
   width: 48px;
   height: 48px;
-  border: 0;
+  border: 10;
+  border-radius: 0px;
   background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
   background-size: 40%;
   background-repeat: no-repeat;
@@ -47,7 +48,7 @@ display: inline-block;
   }
   `;
 
-  export const SearchFormBtnLabel = styled.span`
+  export const SearchFormBtnLabel = styled.label`
   position: absolute;
   width: 1px;
   height: 1px;
@@ -62,15 +63,16 @@ display: inline-block;
   export const SearchFormInput = styled.input`
   display: inline-block;
   width: 100%;
+  height: 45px;
   font: inherit;
   font-size: 20px;
   border: none;
   outline: none;
-  padding-left: 4px;
+  padding-left: 7px;
   padding-right: 4px;
   ::placeholder {
     font: inherit;
-    font-size: 18px;
+    font-size: 20px;
   }
   `;
 

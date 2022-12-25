@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 import { createPortal } from 'react-dom';
 import { ModalImage , Overlay, } from './Modal.styled';
 
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root');
 export const Modal = ({ src, onClose }) => 
 createPortal(
     <Overlay onClick={onClose}>

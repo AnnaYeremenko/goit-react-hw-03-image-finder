@@ -14,12 +14,12 @@ position: fixed;
   `;
 
 export const ModalImage = styled.div`
-position: absolute;
-  top: 0;
-  left: 15%;
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-// max-width: calc(100vw - 48px);
-//   max-height: calc(100vh - 24px);
+// position: absolute;
+//   top: 0;
+//   left: 15%;
+//   width: 70%;
+//   height: 70%;
+//   object-fit: contain;
+max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
   `;

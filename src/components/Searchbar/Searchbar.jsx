@@ -1,4 +1,5 @@
 import { PropTypes } from 'prop-types';
+import { FcSearch} from 'react-icons/fc';
 import {
     SearchbarTitle,
     SearchForm,
@@ -13,14 +14,15 @@ export const Searchbar = ({ onSubmit }) => {
             <SearchForm onSubmit={onSubmit}>
                 <SearchFormBtn tupe="submit">
                     <SearchFormBtnLabel>Search</SearchFormBtnLabel>
+                    <FcSearch style={{ width: 35, height: 30 }}/>
                 </SearchFormBtn>
                 
                 <SearchFormInput
                 type="text"
                 name="query"
-                autoComplete="off"
+                autocomplete="off"
                 autoFocus
-                placeholder="Search images and photos"
+                placeholder="Пошук зображень і світлин"
                 />
             </SearchForm>
         </SearchbarTitle>

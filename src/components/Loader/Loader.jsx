@@ -5,8 +5,8 @@ export const Loader = () => (
     <LoaderGallery>
         <Vortex
   visible={true}
-  height="80"
-  width="80"
+  height="300"
+  width="300"
   ariaLabel="vortex-loading"
   wrapperStyle={{}}
   wrapperClass="vortex-wrapper"
