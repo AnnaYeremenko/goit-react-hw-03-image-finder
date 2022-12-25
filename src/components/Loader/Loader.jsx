@@ -1,16 +1,16 @@
-import { Vortex } from 'react-loader-spinner';
+import { Hearts } from 'react-loader-spinner';
 import { LoaderGallery } from './Loader.styled';
 
 export const Loader = () => (
     <LoaderGallery>
-        <Vortex
-  visible={true}
+        <Hearts 
   height="300"
   width="300"
-  ariaLabel="vortex-loading"
+  color="pink"
+  ariaLabel="hearts-loading"
   wrapperStyle={{}}
-  wrapperClass="vortex-wrapper"
-  colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
+  wrapperClass=""
+  visible={true}
 />
     </LoaderGallery>
 );
